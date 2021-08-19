@@ -1,0 +1,22 @@
+{
+  "name": "ptwo-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "tsc && doppler run -- node build/index.js",
+    "start-pm2": "pm2 start bin/doppler-run.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.171",
+    "@types/node": "^16.3.0",
+    "nodemon": "^2.0.10",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {}
+}
